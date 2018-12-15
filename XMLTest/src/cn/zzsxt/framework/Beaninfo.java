@@ -35,5 +35,7 @@ public class Beaninfo {
 	public void setList(List<Propertyinfo> list) {
 		this.list = list;
 	}
-	
+	void test() {
+		
+	}
 }
