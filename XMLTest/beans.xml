@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+	要求：解析如下XML文件，bean节点下可能有多个property节点
+	1.将bean节点封装成Beaninfo对象，将Property节点封装成Propertyinfo对象
+	2.编写一个方法将bean节点下的所有property节点添加到Beaninfo中，将所有bean节点的信息添加到List中返回
+	public static List<Beaninfo> parseXML(){
+	//1.创建一个List集合用于保存bean节点信息
+	//2.解析配置文件获取bean节点的id属性和value属性值
+	//3.将bean节点的id属性值和value属性值封装到Beaninfo对象
+	//4.解析property节点，将property节点的信息封装成Propertyinfo对象
+	//5.将propertyinfo对象添加到Beaninfo的propsList中
+	//6.将Beaninfo对象添加到List中并返回
+	}
+ -->
+<beans>
+	<bean id="user" class="cn.zzsxt.entity.Userinfo">
+		<property name="userId" value="1"></property>
+		<property name="userName" value="zhangsan"></property>
+		<property name="userPass" value="123"></property>
+	</bean>
+	<bean id="user2" class="cn.zzsxt.entity.Userinfo">
+		<property name="userId" value="2"></property>
+		<property name="userName" value="lisi"></property>
+		<property name="userPass" value="1234"></property>
+	</bean>
+</beans>

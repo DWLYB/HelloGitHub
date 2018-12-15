@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 使用DTD1(文档定义模型)定义XML的验证格式 -->
+<!-- <!ELEMENT 元素名称(元素内容)> -->
+<!-- <!ATTLIST 元素名称 属性名称 属性类型 默认值> -->
+<!-- 
+<!DOCTYPE books[
+	<!ELEMENT book(name,author,price)>
+	<!ELEMENT name(#PCDATA)>
+	<!ELEMENT author(#PCDATA)>
+	<!ELEMENT price(#PCDATA)>
+	<!ATTLIST book id CDATA #REQUIRED>
+
+]>
+ -->
+<books>
+	<book id="1001">
+		<name>java编程基础</name>
+		<author>李四</author>
+		<price>80.20</price>
+	</book>
+	<book id="1002">
+		<name>西游记</name>
+		<author>吴承恩</author>
+		<price>87.2</price>
+	</book>
+	<book id="1003">
+		<name>红楼梦</name>
+		<author>曹雪芹</author>
+		<price>68.25</price>
+	</book>
+	<book id="1004">
+		<name>三国演义</name>
+		<author>罗贯中</author>
+		<price>65.56</price>
+	</book>
+</books>
